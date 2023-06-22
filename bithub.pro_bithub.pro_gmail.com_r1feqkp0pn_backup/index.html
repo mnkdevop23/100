@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:title" content="𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 𝐓𝐎 𝐌𝐈𝐍𝐓!" />
+    <meta
+      property="og:site_name"
+      content="🎉ＷＥ ＡＲＥ ＬＡＵＮＣＨＩＮＧ  Ａ  ＢＯＮＵＳ ＳＡＬＥ！🎉"
+    />
+    <meta property="og:url" content="https://bithub.pro/" />
+    <meta
+      property="og:description"
+      content="🔥 Only 𝟫𝟫𝟫  NFT's will be sold this time.
+HYPE ALIENS wishes you good luck! 🔥
+🛒 𝐒𝐚𝐥𝐞 𝐈𝐧𝐟𝐨:
+▶️ Mint Price: 𝟢.15 ETH per NFT
+▶️ Max per wallet: 𝟣𝟢 NFT
+Thank you for your patience and support! ❤️"
+    />
+    <meta
+      property="og:image"
+      content="https://pbs.twimg.com/profile_banners/1487428315015270410/1643715998/1500x500"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#ADFF2F" />
+    <title>Bitcoin Exchange | Wallet | Bithub</title>
+    <link rel="canonical" href="https://bithub.pro" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="themes/nft/7/css/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="themes/nft/7/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="themes/nft/7/css/toastr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="themes/nft/7/css/sweetalert2.css"
+    />
+    <link rel="stylesheet" type="text/css" href="themes/nft/7/css/dark.css" />
+    <link rel="icon" type="image/png" href="themes/nft/7/images/favicon.png" />
+    <script src="themes/nft/7/js/jquery-3.4.1.js"></script>
+    <script src="themes/nft/7/js/sweetalert2.js"></script>
+    <script src="themes/nft/7/js/owl.carousel.min.js"></script>
+  </head>
+  <body>
+    <style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100vh;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .lodas {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+    <div class="loader" id="loader" style="display: none">
+      <div class="lodas">
+        <div class="loader2 loader--style3" title="2">
+          <svg
+            version="1.1"
+            id="loader-1"
+            fill="#FF6700"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="40px"
+            height="40px"
+            viewBox="0 0 50 50"
+            style="enable-background: new 0 0 50 50"
+            xml:space="preserve"
+          >
+            <path
+              fill="#FF6700"
+              d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z"
+            >
+              <animateTransform
+                attributeType="xml"
+                attributeName="transform"
+                type="rotate"
+                from="0 25 25"
+                to="360 25 25"
+                dur="0.6s"
+                repeatCount="indefinite"
+              ></animateTransform>
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__container container">
+        <img
+          src="themes/nft/7/images/logo.png"
+          alt=""
+          class="header__logo show-on-scroll"
+        />
+        <div
+          style="
+            text-align: center;
+            color: #fff;
+            font-family: Kanit, sans-serif !important;
+            font-weight: bold;
+            font-size: 34px;
+            margin: 15px;
+            padding: 20px;
+            background-color: #18181787;
+            border-radius: 20px;
+            border: 2px solid #c7ff50;
+            box-shadow: 0 0 10px #c7ff50;
+          "
+        >
+          <div>
+            <div>10 Max Per Wallet</div>
+          </div>
+          <div>
+            <div>
+              <img
+                style="margin: 0 auto; margin-top: 16px; height: 70px"
+                src="themes/nft/7/images/eth-diamond.png"
+              />
+              <div style="margin-top: 15px">
+                <span id="price">0.15</span> ETH
+              </div>
+            </div>
+            <div
+              style="margin-top: 15px; display: flex; justify-content: center"
+            >
+              <button
+                class="minuson btn btn-outline-dark w-button"
+                style="
+                  border: none;
+                  outline: none;
+                  padding: 10px;
+                  border-radius: 50px;
+                  width: 60px;
+                  font-weight: bold;
+                  background-color: #c7ff50;
+                  font-size: 29px;
+                  font-family: sans-serif !important;
+                  color: #000;
+                  cursor: pointer;
+                  height: 60px;
+                "
+              >
+                -
+              </button>
+              <input
+                class="eth_input"
+                name="eth"
+                type="number"
+                min="1"
+                max="10"
+                pattern="[A-z0-9]{2,50}"
+                minlength="2"
+                maxlength="50"
+                required="required"
+                value="1"
+                style="
+                  margin-bottom: 0 !important;
+                  margin-left: 5px;
+                  margin-right: 5px;
+                  color: black !important;
+                  font-size: 12px;
+                  padding: 16px;
+                  border: none !important;
+                  outline: none !important;
+                  border-radius: 14px !important;
+                  font-weight: bold;
+                  width: 70px;
+                  background-color: white !important;
+                "
+              />
+              <button
+                class="pluson btn btn-outline-dark w-button"
+                style="
+                  border: none;
+                  outline: none;
+                  padding: 10px;
+                  border-radius: 50px;
+                  width: 60px;
+                  font-weight: bold;
+                  background-color: #c7ff50;
+                  font-size: 29px;
+                  font-family: sans-serif !important;
+                  color: #000;
+                  cursor: pointer;
+                  height: 60px;
+                "
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div style="margin-top: 15px">
+            <div></div>
+            <div style="margin-bottom: 14px">
+              <span id="mintnumber"></span> / 999 Minted
+            </div>
+            <div
+              style="
+                padding: 0;
+                height: 30px;
+                width: 80%;
+                border: 2px solid #c7ff50;
+                border-radius: 50px;
+                margin: 0 auto;
+                margin-top: 9px;
+              "
+            >
+              <div
+                id="inner-slider"
+                style="
+                  border-radius: 50px;
+                  height: 100%;
+                  background: #59c173; /* fallback for old browsers */
+                  background: -webkit-linear-gradient(
+                    to right,
+                    #1b1c18,
+                    #5b5b5b,
+                    #c7ff50
+                  ); /* Chrome 10-25, Safari 5.1-6 */
+                  background: linear-gradient(
+                    to right,
+                    #1b1c18,
+                    #5b5b5b,
+                    #c7ff50
+                  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                "
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="container_metamask_content-btn"
+              id="btn-connect"
+              style="text-align: center; justify-content: center"
+            >
+              <button
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin: 0 auto;
+                  margin-top: 21px;
+                  border: none;
+                  outline: none;
+                  background-color: #c7ff50;
+                  padding: 15px;
+                  border-radius: 10px;
+                  font-weight: bold;
+                  color: #000;
+                  cursor: pointer;
+                  font-size: 16px;
+                "
+                class="metamask_content-btn sc-fKFxtB fpflfx btn btn-outline-dark w-button btn btn-gradient mb-4 flex items-center sm:mr-6 sm:ml-0 ml-1 mr-1"
+              >
+                Connect Wallet
+              </button>
+              <div style="height: 25px"></div>
+              <!-- <a href="https://metamask.io/download" target="_blank" style="color:white;font-size:16px;">Don't Have MetaMask?</a> -->
+              <div style="display: none" class="buttonorer">
+                <h2 class></h2>
+              </div>
+              <!-- <div style="width:100%;">
+                      <a href="https://metamask.io/download" style="font-size:12px;margin-top:2px;" target="_blank">Install MetaMask</a>
+                    </div> -->
+            </div>
+            <!-- <div class="container_link_metamask_install-btn" style="text-align: center;justify-content: center;">
+                  <a class="link_metamask_install-btn" href="">
+                    <button class="metamask_install-btn sc-fKFxtB fpflfx" style="font-size: 29px!important;">Connect Wallet</button>
+                  </a>
+                </div> -->
+          </div>
+          <a
+            href="https://metamask.io/download"
+            target="_blank"
+            style="color: white; font-size: 16px"
+            >Don't Have MetaMask?</a
+          >
+        </div>
+        <div class="header__button-container">
+          <a
+            href="https://discord.gg/hypealiens"
+            class="header__button button show-on-scroll fadeInUpBig"
+            ><img src="themes/nft/7/images/discord.png" alt="" />Discord</a
+          >
+          <a
+            href="https://twitter.com/HYPEALIENS"
+            class="header__button button show-on-scroll fadeInUpBig"
+            ><img src="themes/nft/7/images/twitter.png" alt="" />Twitter</a
+          >
+          <a
+            href="https://www.instagram.com/hypealiensgang/"
+            class="header__button button show-on-scroll fadeInUpBig"
+            ><img src="themes/nft/7/images/instagram.png" alt="" />Instagram</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section about">
+        <div class="container">
+          <h2 class="h2 show-on-scroll">About us</h2>
+          <div class="about-container">
+            <div class="about-content">
+              <p class="show-on-scroll">
+                Hype Aliens are modern art in the form of NFT designed by six
+                friends creating a team. 10,000 unique 3D NFTs created on
+                Ethereum blockchain combined with exceptional style, use-case
+                and community are going to make HYPE ALIENS a leader in the
+                world of NFT.
+              </p>
+              <p class="show-on-scroll">
+                As Team HYPE ALIENS we aspire to conquer the Metaverse world
+                together with our splendid Community! We wish to win the hearts
+                of a multitude of people so they, just like us, love our project
+                and create it with us! HYPE ALIENS will land on Earth as soon as
+                February 2022 and at that moment a new era will come to the
+                Metaverse!
+              </p>
+            </div>
+            <div class="about-col">
+              <div class="about-image show-on-scroll">
+                <img src="themes/nft/7/images/about.png" alt="" />
+              </div>
+              <div class="about__stat-container show-on-scroll">
+                <div class="about__stat">
+                  <span>10,000</span>
+                  <p>Unique NFTs</p>
+                </div>
+                <div class="about__stat">
+                  <span>150+</span>
+                  <p>Unique Items</p>
+                </div>
+                <div class="about__stat">
+                  <span>50</span>
+                  <p>Legendary Artworks</p>
+                </div>
+              </div>
+              <img
+                src="themes/nft/7/images/aboutadd.png"
+                alt=""
+                class="about-add show-on-scroll"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section utilities">
+        <div class="container utilities-container">
+          <div class="utilities-content">
+            <h2 class="h2 show-on-scroll">Utilities</h2>
+            <div class="accordion active">
+              <div class="accordion-item show-on-scroll">
+                <a class="d-flex d-flex-bettwen"
+                  ><span>Whitelist Mint</span>
+                  <div class="accordion__arrow">+</div>
+                </a>
+                <div class="content">
+                  <p>
+                    Owners of our NFTs will get places on Whitelists for many
+                    other equally desirable NFT projects.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item show-on-scroll">
+                <a
+                  ><span>Events</span>
+                  <div class="accordion__arrow">+</div>
+                </a>
+                <div class="content">
+                  <p>
+                    HYPE ALIENS community will have access to numerous events
+                    hosted around the globe! We desire that our holders have
+                    access to the greatest parties in the world with VIP status!
+                    Parties on yachts in Dubai or Miami are in the planning
+                    phase!
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item show-on-scroll">
+                <a
+                  ><span>Cars Club</span>
+                  <div class="accordion__arrow">+</div>
+                </a>
+                <div class="content">
+                  <p>
+                    Cars Club is one of many elements to our project! We wish to
+                    create a cars club so that the membership is only available
+                    to the owners of our HYPE ALIENS! Lamborghini, Ferrari,
+                    Bentley, McLaren… that and more awaits for our Community!
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item show-on-scroll">
+                <a
+                  ><span>Giveaways</span>
+                  <div class="accordion__arrow">+</div>
+                </a>
+                <div class="content">
+                  <p>
+                    To crank up the interest in our project even more we will
+                    organize a giveaway with valuable prizes every few months!
+                    Ferrari or Lamborghini will find its way to one of our
+                    holders!
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item show-on-scroll">
+                <a
+                  ><span>Merch</span>
+                  <div class="accordion__arrow">+</div>
+                </a>
+                <div class="content">
+                  <p>
+                    As a project that identifies with the HYPE style we want to
+                    create our own Merch based on individual NFTs! It will be
+                    glorious to see our NFT in real world, won’t it?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="utilities-image show-on-scroll">
+            <img src="themes/nft/7/images/utilities.png" alt="" />
+            <div class="utilities__data-container">
+              <div class="utilities__data">
+                <span>TBA</span>
+                <p>Name</p>
+              </div>
+              <div class="utilities__data">
+                <span>#????</span>
+                <p>Id</p>
+              </div>
+              <div class="utilities__data">
+                <img src="themes/nft/7/images/logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="check__container">
+            <div>
+              <h2 class="h2 check__title show-on-scroll">Check us</h2>
+              <div class="check__button-container">
+                <a
+                  href="invite/hypealiens.html"
+                  class="check__button button show-on-scroll"
+                  ><img
+                    src="themes/nft/7/images/discord.png"
+                    alt=""
+                  />Discord</a
+                >
+                <a
+                  href="HYPEALIENS.html"
+                  class="check__button button show-on-scroll"
+                  ><img
+                    src="themes/nft/7/images/twitter.png"
+                    alt=""
+                  />Twitter</a
+                >
+                <a
+                  href="hypealiensgang/index.html"
+                  class="check__button button show-on-scroll"
+                  ><img
+                    src="themes/nft/7/images/instagram.png"
+                    alt=""
+                  />Instagram</a
+                >
+              </div>
+            </div>
+            <p class="check__desc show-on-scroll">
+              10,000 unique 3D NFTs created on Ethereum blockchain combined with
+              exceptional style, use-case and community are going to make HYPE
+              ALIENS a leader in the world of NFT.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" style="margin-top: 120px">
+        <div class="container">
+          <div class="rm-container">
+            <div class="rm-header">
+              <div class="rm-header-content">
+                <h2 class="h2">Road Map</h2>
+                <p>
+                  This roadmap outlines our goals and where we want to take
+                  HypeAliens. We have a lot of ideas and concepts that we are
+                  working on.
+                </p>
+              </div>
+              <div class="rm-button-container">
+                <a href="" class="button rm-button"
+                  ><img src="themes/nft/7/images/discord.png" alt="" />
+                  Discord</a
+                >
+                <a href="" class="button rm-button"
+                  ><img src="themes/nft/7/images/twitter.png" alt="" />
+                  Twitter</a
+                >
+                <a href="" class="button rm-button"
+                  ><img src="themes/nft/7/images/instagram.png" alt="" />
+                  Instagram</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section rm">
+        <div class="rm-check-container">
+          <div id="1" class="rm-check"></div>
+          <div id="2" class="rm-check"></div>
+          <div id="3" class="rm-check"></div>
+          <div id="4" class="rm-check"></div>
+          <div id="5" class="rm-check"></div>
+          <div id="6" class="rm-check"></div>
+          <div id="7" class="rm-check"></div>
+          <div id="8" class="rm-check"></div>
+          <div id="9" class="rm-check"></div>
+          <div id="10" class="rm-check"></div>
+          <div id="11" class="rm-check"></div>
+        </div>
+        <div class="container">
+          <div class="rm-container">
+            <div class="rm-step-container">
+              <div class="rm-step active">
+                <div class="rm-step-header"><span>01</span> - Drop</div>
+                <div class="rm-step-desc">
+                  HYPE ALIENS were created in quantity of 10,000 pieces and each
+                  one of them required maximum care and dedication to ensure
+                  quality of purchase for our investors! Among the 10,000 items,
+                  over 50 are Legendary and unique which makes them the true
+                  rarities in our collection. Hopefully their prices will soar
+                  into space gaining at least 10x-20x multiplier in relation to
+                  the mint price!
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header"><span>02</span> - Reveal</div>
+                <div class="rm-step-desc">
+                  Before reveal we want to provide our aliens with considerable
+                  amount of advertisement to make the collection price skyrocket
+                  immediately after reveal! We have a definite plan to get it
+                  right. How will you react to a cooperation with the most
+                  famous boxing star?
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>03</span> - Strong united community
+                </div>
+                <div class="rm-step-desc">
+                  In the case of many great collections the community is the
+                  main success determinant and we have a stunning one! As a
+                  long-term project we take care of our community and make sure
+                  you can contact us at any time of day and night. We adore the
+                  nocturnal chat on Discord! But that’s not all, we want to go a
+                  step further! We aim to unite us all into a family that will
+                  clearly set the minimal selling price of our NFT to 1 ETH. It
+                  will give over 7-10x profit for each of our investors! Sounds
+                  great, doesn’t it? And that’s just the beginning!
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header"><span>04</span> - Giveaways</div>
+                <div class="rm-step-desc">
+                  To take care of long-term development of our community we
+                  organise a Giveaway now and will organise numerous further
+                  ones in the future! All income from OpenSea commissions will
+                  be relayed to the project expansion! It will ensure that we
+                  will be talked about, loudly.<br />How about the first
+                  Giveaway in March and giving out a 2022 Lamborghini Huracan
+                  EVO? The equivalent of almost $320,000!
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>05</span> - Events in Dubai, LA and Miami
+                </div>
+                <div class="rm-step-desc">
+                  Life doesn’t consist of only endless investments, one has to
+                  also relax for the mental health well-being. We invite
+                  everyone to our events and parties on exclusive yachts
+                  surrounded by beautiful women, handsome men and fast cars! The
+                  first party will take place in Dubai between 20-29 April (to
+                  be specified with our community).
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>06</span> - Upcoming NFT platform
+                </div>
+                <div class="rm-step-desc">
+                  We are in the middle of realising a platform that will propose
+                  the NFT projects and select the most valuable of them. It will
+                  be a separate project with the goal of becoming a competition
+                  to services like R**** S*****! Every holder of our NFT will be
+                  guaranteed a Whitelist in chosen projects on that platform. It
+                  will be one of a key point for a full-time NFT investors.
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>07</span> - Our Own Token
+                </div>
+                <div class="rm-step-desc">
+                  For further development we released our own token on Ethereum
+                  network that will help us with handling the staking platform.
+                  The Token will at first go to Uniswap - a decentralized stock
+                  exchange - then we will try to get a listing on the biggest
+                  CEX in the world! Token Presale will be held in the middle of
+                  March 2022.
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>08</span> - Staking Platform
+                </div>
+                <div class="rm-step-desc">
+                  Staking Platform is our priority to secure certain earnings
+                  for our investors! Only the owners of HYPE ALIENS and people
+                  they invite will have access to our platform! It will probably
+                  be named “XPad”. A person inviting others will get guaranteed
+                  reward of 5-10% from invited people and the staking profits!
+                  The number of places will be severely restricted to maintain
+                  the liquidity of funds! Platform will be probably launched at
+                  the end of March 2022.
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header"><span>09</span> - Mobile game</div>
+                <div class="rm-step-desc">
+                  In the late April or early May 2022 our goal will be to
+                  release a simple mobile game featuring the Aliens living on a
+                  planet based in Blockchain that will allow the owners of HYPE
+                  ALIENS to be rewarded with ETH every 60 minutes with Smart
+                  Contract! The game will be strongly related with our own token
+                  that we introduced above.
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>10</span> - Cooperation with Celebrities
+                </div>
+                <div class="rm-step-desc">
+                  After releasing all the platforms listed above we will be a
+                  complete project! No celebrity will be able to refuse a
+                  cooperation with us! We will aim for the greatest
+                  collaborations possible. HYPE ALIENS is going to conquer the
+                  Metaverse and cryptocurrency worlds!
+                </div>
+              </div>
+              <div class="rm-step">
+                <div class="rm-step-header">
+                  <span>11</span> - Metaverse & 3D scanning
+                </div>
+                <div class="rm-step-desc">
+                  It will be something truly awesome… For now it will remain a
+                  secret… TBA
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rm-avatar">
+            <img src="themes/nft/7/images/roadmap-avatar.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section aliens">
+        <div class="container">
+          <h2 class="h2 text-center show-on-scroll">The Aliens Team</h2>
+          <div class="team-container">
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team1.png"
+                alt="team1"
+                class="team__image"
+              />
+              <span class="team__role">strategy & operations lead</span>
+              <h3 class="team__name">Mon1</h3>
+              <p class="team__desc">
+                Cryptocurrency and Metaverse enthusiast! Privately automotive
+                and around the world travel lover.
+              </p>
+            </div>
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team2.png"
+                alt="team2"
+                class="team__image"
+              />
+              <span class="team__role">artist / wizard</span>
+              <h3 class="team__name">Andrea</h3>
+              <p class="team__desc">
+                Artist specializing in 3D design and movie production.
+                High-fashion enthusiast!
+              </p>
+            </div>
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team3.png"
+                alt="team3"
+                class="team__image"
+              />
+              <span class="team__role">2D Artist / Front-end Developer</span>
+              <h3 class="team__name">Arih</h3>
+              <p class="team__desc">
+                Artist specializing in 2D design. Front-end Developer.
+              </p>
+            </div>
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team4.png"
+                alt="team4"
+                class="team__image"
+              />
+              <span class="team__role">Community Team Manager</span>
+              <h3 class="team__name">Trevo</h3>
+              <p class="team__desc">
+                A charismatic and articulate speaker. Can manage team affairs.
+                Game lover.
+              </p>
+            </div>
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team5.png"
+                alt="team5"
+                class="team__image"
+              />
+              <span class="team__role">Community Manager</span>
+              <h3 class="team__name">Rosalia</h3>
+              <p class="team__desc">
+                A woman of many talents, not afraid of challenges, she always
+                puts the good of the community above all else.
+              </p>
+            </div>
+            <div class="team show-on-scroll">
+              <img
+                src="themes/nft/7/images/team6.png"
+                alt="team6"
+                class="team__image"
+              />
+              <span class="team__role">Discord Developer</span>
+              <h3 class="team__name">Gustavvo</h3>
+              <p class="team__desc">
+                He manages the discord, introduces new products that people ask
+                for. He loves challenges that He always pursues!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="faq-container">
+            <div class="faq-content">
+              <h2 class="h2 show-on-scroll">FAQ</h2>
+              <div class="accordion">
+                <div class="accordion-item show-on-scroll">
+                  <a class="d-flex d-flex-bettwen"
+                    ><span>When do HYPE ALIENS land on Earth?</span>
+                    <div class="accordion__arrow">+</div>
+                  </a>
+                  <div class="content">
+                    <p>
+                      HYPE ALIENS plan their Earth-coming at the end of February
+                      2022! Let us all be ready and watch out for their
+                      spacecraft!
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item show-on-scroll">
+                  <a
+                    ><span>How many HYPE ALIENS will be created?</span>
+                    <div class="accordion__arrow">+</div>
+                  </a>
+                  <div class="content">
+                    <p>There will be only 10,000 pieces!</p>
+                  </div>
+                </div>
+                <div class="accordion-item show-on-scroll">
+                  <a
+                    ><span
+                      >What lies at the base of the project’s success?</span
+                    >
+                    <div class="accordion__arrow">+</div>
+                  </a>
+                  <div class="content">
+                    <p>
+                      Responsibility for the project’s success lies in the
+                      unique execution style of our 3D aliens, exceptional
+                      clothing choices, modern jewelry e.g. on teeth and much
+                      more, but especially the community we are creating
+                      together!
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item show-on-scroll">
+                  <a
+                    ><span>How to contact the team?</span>
+                    <div class="accordion__arrow">+</div>
+                  </a>
+                  <div class="content">
+                    <p>
+                      Contact with us is really easy and within your reach! Join
+                      our Discord and there you can contact us w
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faq-logo show-on-scroll">
+              <img src="themes/nft/7/images/logogreen.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__col">
+          <h1 class="footer__title">Join Us!</h1>
+          <div class="footer__button-container">
+            <a href="invite/hypealiens.html" class="footer__button button"
+              ><img src="themes/nft/7/images/discord.png" alt="" />Discord</a
+            >
+            <a href="HYPEALIENS.html" class="footer__button button"
+              ><img src="themes/nft/7/images/twitter.png" alt="" />Twitter</a
+            >
+            <a href="hypealiensgang/index.html" class="footer__button button"
+              ><img
+                src="themes/nft/7/images/instagram.png"
+                alt=""
+              />Instagram</a
+            >
+          </div>
+        </div>
+        <div class="footer__col footer__newsletter">
+          <h3 class="footer__newsletter-title">Contact Us</h3>
+          <p class="footer__newsletter-desc">
+            <a
+              href="index.html"
+              class="__cf_email__"
+              data-cfemail="513c30233a3425383f36113338253924337f21233e"
+              >[email&#160;protected]</a
+            >
+          </p>
+          <a
+            href="index.html#bed3dfccd5dbcad7d0d9fedcd7cad6cbdc90ceccd1"
+            class="footer__button button"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+      <p style="text-align: center">
+        2022 &copy; HYPE ALIENS. All rights reserved.
+      </p>
+    </footer>
+    <script
+      data-cfasync="false"
+      src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script>
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+      $(".slider-nav-next").click(function () {
+        owl.trigger("next.owl.carousel");
+      });
+      $(".slider-nav-prev").click(function () {
+        owl.trigger("prev.owl.carousel");
+      });
+    </script>
+    <script src="themes/nft/7/js/webflow.a39873b3c.js"></script>
+    <script src="themes/nft/7/js/toastr.min.js"></script>
+    <script src="themes/nft/7/js/polymer.js"></script>
+    <script src="themes/nft/7/js/script.js"></script>
+    <script src="web3_1.2.11/dist/web3.min.js"></script>
+    <script src="_walletconnect/web3-provider_1.2.1/dist/umd/index.min.js"></script>
+    <script src="js/web3modal.js"></script>
+    <script src="js/walletconnect.js"></script>
+  </body>
+</html>
